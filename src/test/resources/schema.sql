@@ -1,0 +1,18 @@
+/*CREATE TABLE PRODUCT (
+    id   INTEGER      NOT NULL AUTO_INCREMENT,
+    type VARCHAR(128) NOT NULL,
+    COMPANY_NAME VARCHAR(128) NOT NULL,
+    price NUMBER(12,8) NOT NULL,
+    PRIMARY KEY (id)
+);
+*/
+
+/*CREATE TABLE ITEM (
+    product_code   INTEGER      NOT NULL AUTO_INCREMENT,
+    user_name VARCHAR(128) NOT NULL,
+    count NUMBER NOT NULL,
+    PRIMARY KEY (product_code)
+);*/
+
+delete PRODUCT;
+delete ITEM;
